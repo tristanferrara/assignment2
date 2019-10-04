@@ -3,7 +3,7 @@
 
 #include "Vehicle.h"
 
-class Jet : public Vehicle {
+class Jet : public PoweredVehicle {
 
 private:
     int numberOfEngines;
