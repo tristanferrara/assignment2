@@ -2,7 +2,7 @@
 #include <cstdlib>
 
 
-Jet::Jet(string brand, string model, int EngineCount) {
+Jet::Jet(string brand, string model, int engineCount) {
     setBrand(brand);
     setModel(model);
     setEngineCount(engineCount);
@@ -11,11 +11,11 @@ Jet::Jet(string brand, string model, int EngineCount) {
 Jet::~Jet() = default;
 
 int Jet::getEngineCount() {
-    return myEngineCount;
+    return numberOfEngines;
 }
 
-void Jet::setGearCount(int engineCount) {
-    myEngineCount = engineCount;
+void Jet::setEngineCount(int engineCount) {
+    numberOfEngines = engineCount;
 }
 
 double Jet::mileageEstimate(double time) {
@@ -34,5 +34,5 @@ double Jet::mileageEstimate(double time) {
 string Jet::toString() {
     string s = "-> Jet\n\t";
     return "-> Jet\n" + PoweredVehicle::toString() + "\n\tEngines: " +
-           to_string(myEngineCount);
+           to_string(numberOfEngines);
 }
