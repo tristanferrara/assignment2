@@ -9,7 +9,7 @@ void printVehiclesRoster(Vehicle **vehicles, int size);
 
 int main() {
     std::cout << "Driving simulator" << std::endl;
-    int size = 6;
+    int size = 9;
     int capacity = 10;
     Vehicle **vehiclesArray = new Vehicle *[capacity];
 
@@ -19,6 +19,9 @@ int main() {
     vehiclesArray[3] = new Car("Tesla", "T2", "electricity", "large");
     vehiclesArray[4] = new Bicycle("Mizuno", "Wave", 10);
     vehiclesArray[5] = new Car("BMW", "X5", "diesel", "grande");
+	vehiclesArray[6] = new Jet("JetBlue", "747", 3);
+	vehiclesArray[7] = new Skateboard("Element", "Metal");
+	vehiclesArray[8] = new Boat("Tracker", "35", 1);
 
     printVehiclesRoster(vehiclesArray, size);
 
