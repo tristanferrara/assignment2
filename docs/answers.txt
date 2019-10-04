@@ -1,0 +1,32 @@
+a. On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+        docs/
+
+nothing added to commit but untracked files present
+
+b. Eight commits (command: git log)
+
+c. .gitignore was last modified at 6:13PM on Sept. 25, 2019 (command: git log --follow .gitignore)
+
+d.	1. To allow work to get done without modifying the original code
+	2. To allow people to work on code simultaneously
+	
+e. git log shows all past commits; git status shows files that have been changed and need to be committed
+
+f. git log --follow Vehicle.h 
+
+g. git log --all --grep='Build 0051'
+(source: https://stackoverflow.com/questions/7124914/how-to-search-a-git-repository-by-commit-message)
+
+h.	1. Inheritance: Where a subclass retains certain properties of its superclass.
+	2. Polymorphism: Where a child class object can take the form of any other object above it in its hierarchy.
+	3. Encapsulation: The bundling of data with methods that work on that data, such as a class.
+	
+i.	In the "Integration manager" workflow, developers are their own "Lieutenants", in the sense that
+they must resolve their own coflicts.
+
+j. The "Dictators and Lieutenants" workflow would be more beneficial for 100 developers because
+it would ensure that specific people can work on resolving conflicts while others are working on
+the source code.
