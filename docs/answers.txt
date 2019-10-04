@@ -30,3 +30,11 @@ they must resolve their own coflicts.
 j. The "Dictators and Lieutenants" workflow would be more beneficial for 100 developers because
 it would ensure that specific people can work on resolving conflicts while others are working on
 the source code.
+
+5. 
+
+Polymorphism: Yes, the Driving simulator uses polymorphism, as each subclass of Vehicle is used as Vehicle in main.cpp
+in order to print from the Vehicle array.
+
+Encapsulation: Yes, the Driving simulator uses encapsulation, as in each subclass of Vehicle, the calculation for mileage
+is encapsulated in the class.
